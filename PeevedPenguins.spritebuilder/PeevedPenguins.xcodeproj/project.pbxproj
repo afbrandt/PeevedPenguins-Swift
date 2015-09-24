@@ -634,7 +634,9 @@
 		B77F1B2617B978D7009739AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = MakeSchool;
 				TargetAttributes = {
 					7A4035FE19DDEE84007B6E8F = {
@@ -996,6 +998,7 @@
 					"-ObjC",
 					"-lz",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocos2d.PeevedPenguins;
 				PRODUCT_MODULE_NAME = PeevedPenguins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1040,6 +1043,7 @@
 					"-ObjC",
 					"-lz",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocos2d.PeevedPenguins;
 				PRODUCT_MODULE_NAME = PeevedPenguins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1087,6 +1091,7 @@
 					"-lgles_apportable",
 					"-landroid",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocos2d.PeevedPenguins;
 				PRODUCT_MODULE_NAME = PeevedPenguins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1134,6 +1139,7 @@
 					"-lgles_apportable",
 					"-landroid",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocos2d.PeevedPenguins;
 				PRODUCT_MODULE_NAME = PeevedPenguins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1156,7 +1162,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DEBUG,
@@ -1190,6 +1198,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
 					"NS_BLOCK_ASSERTIONS=1",
@@ -1234,6 +1243,7 @@
 					"-lz",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocos2d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = PeevedPenguins;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/Bridging-Header.h";
@@ -1267,6 +1277,7 @@
 					"-lz",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocos2d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = PeevedPenguins;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/Bridging-Header.h";

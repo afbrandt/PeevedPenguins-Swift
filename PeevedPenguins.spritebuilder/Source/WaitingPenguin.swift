@@ -9,7 +9,7 @@
 class WaitingPenguin: CCSprite {
   func didLoadFromCCB() {
     // generate a random number between 0.0 and 2.0
-    var delay = CCRANDOM_0_1() * 2
+    let delay = CCRANDOM_0_1() * 2
     // call method to start animation after random delay
     scheduleOnce("startBlinkAndJump", delay: CCTime(delay))
   }
